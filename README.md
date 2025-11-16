@@ -23,7 +23,7 @@
 
 ## 🚀 Демо
 
-[🔗 Переглянути Live Demo](mihuilsu.github.io/homework-27) 
+[🔗 Переглянути Live Demo](https://mihuilsu.github.io/homework-27) 
 
 ## 📋 Зміст
 
