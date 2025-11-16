@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Карусельний слайдер</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="carousel">
+      <div id="slides-container">
+        <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80');">
+          <div class="slide-content">
+            <h2>Гірські вершини</h2>
+            <p>Неймовірна краса природи</p>
+          </div>
+        </div>
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1920&q=80');">
+          <div class="slide-content">
+            <h2>Зоряне небо</h2>
+            <p>Безмежний космос над нами</p>
+          </div>
+        </div>
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1920&q=80');">
+          <div class="slide-content">
+            <h2>Лісова стежка</h2>
+            <p>Спокій і гармонія природи</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="indicators-container">
+        <div class="indicator active" data-slide-to="0"></div>
+        <div class="indicator" data-slide-to="1"></div>
+        <div class="indicator" data-slide-to="2"></div>
+      </div>
+
+      <div id="controls-container">
+        <button id="pause-btn" aria-label="Пауза">
+          <i class="fas fa-pause"></i>
+        </button>
+        <button id="prev-btn" aria-label="Попередній слайд">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button id="next-btn" aria-label="Наступний слайд">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
